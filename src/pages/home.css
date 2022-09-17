@@ -1,0 +1,70 @@
+.homeContainer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.mainHeading {
+  margin: 10px 0 50px 0;
+}
+
+.description {
+  color: gray;
+  font-size: 14px;
+}
+
+.list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+  width: 100%;
+  max-width: 1024px;
+  margin: 50px 0;
+}
+
+.listItem {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  width: 110px;
+}
+.listItem:hover {
+  outline: 1px solid gray;
+  border-radius: 20px;
+  cursor: pointer;
+  background: rgba(128, 128, 128, 0.2);
+}
+
+.listItem .icon {
+  font-size: 25px;
+  padding: 15px;
+}
+
+.title {
+  color: #1e1e1ed2;
+  margin: 100px;
+}
+
+.search {
+  width: 100%;
+}
+
+.imageBoxContainer > img {
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+}
+
+.adsContainer {
+  width: 973px;
+  height: 286px;
+  display: flex;
+  align-items: center;
+  background: rgba(128, 128, 128, 0.19);
+  justify-content: center;
+  font-size: 51px;
+  color: #999999;
+  margin: 50px;
+}

@@ -1,0 +1,46 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.logo > .img {
+  height: 60px;
+}
+.logo > span {
+  font-weight: 700;
+  font-size: 30px;
+  font-style: normal;
+  background: linear-gradient(
+    89.13deg,
+    #f3a378 -7.88%,
+    #e96e79 26.28%,
+    #df3a7b 59.25%,
+    #9831a1 89.03%,
+    rgba(85, 85, 85, 0) 113.71%
+  );
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.navbar > ul {
+  display: flex;
+}
+.navbar > ul li {
+  list-style: none;
+  margin-left: 50px;
+  color: rgba(85, 85, 85, 0) 113.71%;
+
+  cursor: pointer;
+}
+/* .navbar > ul li:first-child {
+  font-weight: 500;
+  color: black;
+} */
