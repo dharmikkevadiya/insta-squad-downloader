@@ -29,7 +29,7 @@ const Home = ({ mode, setMode }) => {
           <h1 className="mainHeading">Instagram {saver}</h1>
           <p className="description">
             Download Photos, Reels, Videos, Stories, IGTV and Profile Photos
-            from Instagram
+            from Instagram.
           </p>
           <div className="list">
             <div className="listItem" onClick={() => setSaver("ImageSaver")}>
